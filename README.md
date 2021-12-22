@@ -28,7 +28,6 @@ It supports DNS OOB callbacks out of the box, there is no need to setup a DNS ca
 ```
 $ git clone 
 $ pip3 install -r requirements.txt
-
 ```
 # Usage
 
