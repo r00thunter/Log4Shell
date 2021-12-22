@@ -13,7 +13,7 @@
 ---
 # Announcement
 
-There is a patch bypass on Log4J v2.15.0 that allows a full RCE. This log4j-scan script reliably detect CVE-2021-45046. If you're having difficulty discovering and scanning your infrastructure at scale or keeping up with the Log4J threat.
+There is a patch bypass on Log4J v2.15.0 that allows a full RCE. This log4shell script reliably detect CVE-2021-45046. If you're having difficulty discovering and scanning your infrastructure at scale or keeping up with the Log4J threat.
 
 
 # Description
@@ -26,7 +26,8 @@ It supports DNS OOB callbacks out of the box, there is no need to setup a DNS ca
 # Installation
 
 ```
-$ git clone 
+$ git clone https://github.com/r00thunter/Log4Shell.git
+$ cd Log4shell
 $ pip3 install -r requirements.txt
 ```
 # Usage
